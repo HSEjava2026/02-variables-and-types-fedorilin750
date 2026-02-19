@@ -1,6 +1,6 @@
 package ru.hse.java2026;
 
-public class SumCalculator {
+public class Sum {
     public static void main(String[] args) {
         int sum = 0;
 
