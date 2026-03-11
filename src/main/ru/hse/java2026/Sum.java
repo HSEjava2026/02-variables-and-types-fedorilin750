@@ -5,7 +5,7 @@ public class Sum {
         int sum = 0;
 
         for (String arg : args) {
-            // Разбиваем по ЛЮБЫМ непонятным символам, оставляем только цифры и минус
+
             String[] parts = arg.split("[^\\d-]+");
 
             for (String part : parts) {
@@ -14,7 +14,7 @@ public class Sum {
                 try {
                     sum += Integer.parseInt(part);
                 } catch (NumberFormatException e) {
-                    // Игнорируем
+
                 }
             }
         }
