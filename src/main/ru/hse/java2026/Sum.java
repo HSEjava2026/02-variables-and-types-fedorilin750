@@ -14,6 +14,7 @@ public class Sum {
                 try {
                     sum += Integer.parseInt(part);
                 } catch (NumberFormatException e) {
+                    System.out.println("не верный ввод")
 
                 }
             }
